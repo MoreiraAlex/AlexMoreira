@@ -20,9 +20,14 @@ export default function Home() {
       </main>
 
       <footer className={styles.footer}>
-        <a href="https://github.com/MoreiraAlex" target="_blank" rel="noopener noreferrer">
-          Desenvolvido por Alex Moreira
-        </a>
+        <div>
+          <a href="https://github.com/MoreiraAlex" target="_blank" rel="noopener noreferrer">
+            Desenvolvido por Alex Moreira
+          </a>
+          <p className={styles.cnpj}>
+            41.925.661 ALEX INOCENCIO MOREIRA - 41.925.661/0001-05
+          </p>
+        </div>
       </footer>
     </div>
   )
