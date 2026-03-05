@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Link from 'next/link'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -54,9 +55,9 @@ export default function Home() {
             de usuários e clientes.
           </p>
         
-          <a href="/PrivacyPolicy" className={styles.button}>
+          <Link href="/PrivacyPolicy" className={styles.button}>
             Ver Política de Privacidade
-          </a>
+          </Link>
         </section>
       </main>
 
