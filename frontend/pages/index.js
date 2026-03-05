@@ -22,17 +22,17 @@ export default function Home() {
           software, automação de processos e integração de sistemas para empresas.
         </p>
 
-        <section>
+        <section className={styles.section}>
           <h2>Serviços</h2>
-          <ul>
+          <ul className={styles.services}>
             <li>Desenvolvimento de APIs</li>
             <li>Automação de processos empresariais</li>
             <li>Integração com sistemas e plataformas</li>
             <li>Desenvolvimento Web</li>
           </ul>
         </section>
-
-        <section>
+        
+        <section className={styles.section}>
           <h2>Contato</h2>
           <p>Email: alex@moreiracode.com</p>
           <p>
@@ -46,15 +46,15 @@ export default function Home() {
             </a>
           </p>
         </section>
-
-        <section>
+        
+        <section className={styles.section}>
           <h2>Política de Privacidade</h2>
           <p>
             Consulte nossa política de privacidade para entender como tratamos os dados
             de usuários e clientes.
           </p>
         
-          <a href="/privacy-policy">
+          <a href="/privacy-policy" className={styles.button}>
             Ver Política de Privacidade
           </a>
         </section>
