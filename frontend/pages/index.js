@@ -54,7 +54,7 @@ export default function Home() {
             de usuários e clientes.
           </p>
         
-          <a href="/privacy-policy" className={styles.button}>
+          <a href="/PrivacyPolicy" className={styles.button}>
             Ver Política de Privacidade
           </a>
         </section>
