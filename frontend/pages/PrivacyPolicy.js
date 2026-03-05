@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import styles from '../styles/Home.module.css'
 
 export default function PoliticaPrivacidade() {
   return ( 
@@ -8,7 +9,7 @@ export default function PoliticaPrivacidade() {
         <meta name="description" content="Política de Privacidade do OS Upflow. Saiba como tratamos e protegemos seus dados." /> 
       </Head>
 
-      <main>
+      <main className={styles.policyContainer}>
         <h1>Política de Privacidade — OS Upflow</h1>
 
         <p><strong>Última atualização:</strong> 02 de março de 2026</p>
